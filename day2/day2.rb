@@ -1,7 +1,7 @@
 data = Hash.new
- File.open("input.txt").each_with_index do |line, index|
-   data[index] = line.split("\t")
- end
+File.open("input.txt").each_with_index do |line, index|
+ data[index] = line.split("\t")
+end
 # data[0] = [5,9,2,8]
 # data[1] = [9,4,7,3]
 # data[2] = [3,8,6,5]
